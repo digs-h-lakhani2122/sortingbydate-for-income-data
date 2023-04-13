@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#709C27B0"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        tools:ignore="UselessParent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/dateTextView"
+            tools:ignore="HardcodedText"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:text="date" />
+
+        <TextView
+            android:id="@+id/dayTextView"
+            tools:ignore="HardcodedText"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:text="day" />
+
+        <TextView
+            android:id="@+id/month_yearTextView"
+            tools:ignore="HardcodedText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="month_year" />
+
+        <TextView
+            android:id="@+id/total_incomeTextView"
+            tools:ignore="HardcodedText,RtlHardcoded"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="total_income" />
+
+    </LinearLayout>
+
+</LinearLayout>
